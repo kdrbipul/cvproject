@@ -1,0 +1,151 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.container{
+    max-width:1000px;
+    background-color:#E4F9F5;
+    margin: 0 auto;
+    padding:20px;
+}
+body{
+    background-color:#EEE;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    height:150px;
+    width:120px;
+    border: 5px solid white;
+    border-radius:50%;
+    float:left;
+}
+.profile-bio{
+    float:left;
+    padding:30px;
+    margin-left:120px;
+    margin-top:-140px;
+}
+h1,h2,h3,h4,h5,h6,p{
+    color:teal;
+}
+.header-contanct{
+    float:right;
+    padding:30px;
+    margin-top:-140px;
+}
+.header-contanct a{
+    text-decoration:none;
+    color: teal;
+    font-weight:bold;
+}
+.header-contanct a:hover{
+    text-decoration:underline;
+    color:tomato;
+}
+.clear-div{
+    clear:both;
+}
+.clear-float{
+    clear:both;
+}
+/* .clear-hcontent{
+    clear:top;
+} */
+hr{
+    border:3px solid black;
+    width:100%;
+    margin:20px auto;
+    border-bottom:none;
+}
+#job-expreance .job-title{
+    border:none;
+    width:300px;
+    height:auto;
+    display:inline-block;
+    box-sizing:border-box;
+    float:left;
+}
+#job-expreance .job-description{
+    float:right;
+    width:700px;
+    height:auto;
+    border:none;
+    box-sizing: border-box;
+    text-align:justify;
+    text-indent: 25px;
+    margin-top:-45px;
+}
+#education .education-title1{
+    float:left;
+    border:none;
+    width:300px;
+    height:auto;
+    box-sizing: border-box;
+}
+#education .versity{
+    float:right;
+    border:none;
+    width:700px;
+    height:auto;
+    box-sizing: border-box;
+    margin-top:-30px;
+    text-align:justify;
+    
+}
+#hobbies .hobbi{
+    float:left;
+    border:none;
+    width:300px;
+    height:auto;
+    box-sizing: border-box;
+}
+#hobbies .hobbi-description{
+    float:right;
+    border:none;
+    width:700px;
+    height:auto;
+    box-sizing: border-box;
+    margin-top:-25px;
+    text-align:justify;
+}
+.bottom-container{
+    border:1px solid black;
+    width:90%;
+    margin:0 auto;
+    box-sizing: border-box;
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+.bottom-container a{
+    text-decoration:none;
+    padding:20px;
+    color:white;
+
+}
+.bottom-container a:hover{
+    color:tomato;
+    text-decoration:underline;
+}
+.bottom-container p{
+    margin-top:15px;
+
+}
+@media(max-width:576px) {
+    #pic-info img, .profile-bio{
+        width:50%;
+    }
+    #pic-info .col-50{
+        width:100%;
+    }
+    #profile-content .col-50{
+        width:100%;
+    }
+}
+.col-50{
+    width:100%;
+}
+.col-50.1{
+    width:100%;
+}
